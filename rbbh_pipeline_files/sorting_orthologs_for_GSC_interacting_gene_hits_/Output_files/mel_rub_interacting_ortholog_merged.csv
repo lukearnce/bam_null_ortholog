@@ -1,0 +1,114 @@
+,gene_description,gene_nomenclature_authority_identifier,gene_symbol_x,gene_synonyms_0,gene_synonyms_1,query_0,gene_symbol_y
+0,COP9 signalosome subunit 4,FBgn0027054,CSN4,CG8725,CH4,NP_477444.1,CSN4
+1,E2F transcription factor 1,FBgn0011766,E2f1,CG6376,dE2f,NP_732647.1,E2f1
+2,,FBgn0001942 ,,,,,eIF4A
+3,eukaryotic translation initiation factor 4E1,FBgn0015218,eIF4E1,0260/09,0587/11,NP_729485.1,eIF4E1
+4,held out wings,FBgn0264491,how,0904/17,24B,NP_001262822.1,how
+5,nanos,FBgn0002962,nos,CG5637,Dmel\CG5637,NP_476658.1,nos
+6,tumorous testis,FBgn0052364,tut,anon-WO0118547.705,CG32364,NP_729346.1,tut
+7,under-developed,FBgn0033261,udd,CG18316,Dmel\CG18316,NP_610353.1,udd
+8,aurora B,FBgn0024227,aurB,ABK,Aur,NP_477336.1,AurB
+9,Cyclin A,FBgn0000404,CycA,0033/02,0040/24,NP_001246724.1,CycA
+10,Darkener of apricot,FBgn0265998,Doa,0844/02,CG1658,NP_001014681.2,Doa
+11,lilipod,FBgn0027539,lili,anon-WO0118547.355,BcDNA:GH12663,NP_651290.1,lili
+12,,FBgn0287725,,,,,sov
+13,thickveins,FBgn0003716,tkv,Atkv,Atr25D,NP_787990.1,tkv
+14,tribbles,FBgn0028978,trbl,CG5408,Dmel\CG5408,NP_524672.1,trbl
+15,Suppressor of cytokine signaling at 36E,FBgn0041184,Socs36E,anon-EST:Liang-2.2,CG15154,NP_523593.5,Socs36E
+16,cap-n-collar,FBgn0262975,cnc,5134,anon-WO0153538.6,NP_001262864.1,cnc
+17,uncharacterized protein,FBgn0035854,CG8005,Dmel\CG8005,,NP_648188.2,Dhps
+18,Argonaute-1,FBgn0262739,AGO1,Ago,Ago-1,NP_725342.1,AGO1
+19,,FBgn0029856,,,,,CG11700
+20,CCR4-NOT transcription complex subunit 3,FBgn0033029,Not3,CG8426,CNOT3,NP_610176.1,Not3
+21,brain tumor,FBgn0010300,brat,anon-37CDa,Brat,NP_995726.1,brat
+22,pumilio,FBgn0003165,pum,anon-WO0172774.19,bem,NP_731316.2,pum
+23,Mothers against dpp,FBgn0011648,Mad,2/23,apg,NP_001259992.1,Mad
+24,ovaries absent,FBgn0032197,ova,CG5694,Dmel\CG5694,NP_723535.1,ova
+25,similar,FBgn0266411,sima,7951,bHLHe56,NP_001287599.1,sima
+26,Serendipity delta,FBgn0003512,Sry-delta,anon-EH8,CG17958,NP_524581.1,Sry-δ
+27,tango,FBgn0264075,tgo,arnt,Arnt,NP_731308.1,tgo
+28,Tudor staphylococcal nuclease,FBgn0035121,Tudor-SN,CG7008,Dmel\CG7008,NP_612021.1,Tudor-SN
+29,Zinc/iron regulated transporter-related protein 99C,FBgn0039714,Zip99C,cg7816,CG7816,NP_733324.1,Zip99c
+30,scalloped,FBgn0003345,sd,anon-EST:Liang-2.14,CG8544,NP_001368984.1,sd
+31,Suppressor of variegation 3-3,FBgn0260397,Su(var)3-3,CG17149,dLsd1,NP_730497.1,Su(var)3-3
+32,,FBgn0034970,,,,,yki
+33,Kruppel,FBgn0001325,Kr,CG3340,Dm-Kr,NP_523867.1,kr
+34,elys,FBgn0031052,Elys,CG14215,Dmel\CG14215,NP_608340.2,Elys
+35,Histone deacetylase 1,FBgn0015805,HDAC1,CG7471,dHDAC-1,NP_647918.2,HDAC1
+36,,FBgn0033686,,,,,Hen1
+37,,FBgn0001195,,,,,His1
+38,karyopherin alpha3,FBgn0027338,Kap-alpha3,0335/13,alphaKap3,NP_788614.1,Kap-α3
+39,Kinesin-like protein at 10A,FBgn0030268,Klp10A,anon-WO03040301.142,CG1453,NP_727494.1,Klp10A
+40,Nibbler,FBgn0032924,Nbr,CG9247,Dmel\CG9247,NP_610094.1,Nbr
+41,Nucleoporin 358kD,FBgn0039302,Nup358,CG11856,Dmel\CG11856,NP_651361.2,Nup358
+42,Panoramix,FBgn0034617,Panx,CG9754,Dmel\CG9754,NP_611576.1,Panx
+43,Su(z)12,FBgn0020887,Su(z)12,CG8013,Dmel\CG8013,NP_730465.1,Su(z)12
+44,asterix,FBgn0036826,arx,Arx,BcDNA:LD18018,NP_649071.1,arx
+45,brahma,FBgn0000212,brm,Brahma,BRD,NP_730088.1,brm
+46,corto,FBgn0010313,corto,7128,anon-WO02059370.59,NP_524231.2,corto
+47,,FBgn0000588,,,,,esc
+48,nuclear RNA export factor 2,FBgn0036640,nxf2,CG4118,Dmel\CG4118,NP_730179.2,nxf2
+49,papi,FBgn0031401,papi,cg7082,CG7082,NP_722775.1,papi
+50,qin,FBgn0263974,qin,CG14303,CG14306,NP_650735.3,qin
+51,shutdown,FBgn0003401,shu,CG4735,Dmel\CG4735,NP_611837.1,shu
+52,,FBgn0267347,,,,,squ
+53,,FBgn0034939,,,,,thoc5
+54,,FBgn0263143,,,,,vret
+55,zucchini,FBgn0261266,zuc,CG12314,Dmel\CG12314,NP_609530.1,zuc
+56,kayak,FBgn0001297,kay,AP-1,AP1,NP_001027577.2,kay
+57,traffic jam,FBgn0000964,tj,CG10034,DM13,NP_609969.2,tj
+58,hedgehog,FBgn0004644,hh,anon-WO0134654.19,anon-WO0182946.19,NP_001034065.1,hh
+59,patched,FBgn0003892,ptc,BcDNA:RH36596,CG2411,NP_523661.2,ptc
+60,Sister of Yb,FBgn0051755,SoYb,CG31755,CG5831,NP_609335.3,SoYb
+61,absent MD neurons and olfactory sensilla,FBgn0003270,amos,Amos,asolo,NP_477446.1,amos
+62,bifid,FBgn0000179,bi,BI,CG3578,NP_525070.2,bi
+63,costa,FBgn0000352,cos,CG1708,Cos,NP_477092.1,cos
+64,division abnormally delayed,FBgn0263930,dally,anon-EST:Liang-1.63,CG4974,NP_523983.1,dally
+65,dispatched,FBgn0029088,disp,anon-WO0146227.1,CG2019,NP_524734.2,disp
+66,decapentaplegic,FBgn0000490,dpp,blk,BMP,NP_722813.1,dpp
+67,fused,FBgn0001079,fu,CG6551,d Fu,NP_477499.1,fu
+68,HMG Coenzyme A reductase,FBgn0263782,Hmgcr,BcDNA:LD15354,bro1,NP_732900.1,Hmgcr
+69,knot,FBgn0001319,kn,CG10197,coe,NP_001097317.1,kn
+70,mastermind,FBgn0002643,mam,CG8118,Dm0064,NP_725354.1,mam
+71,microtubule star,FBgn0004177,mts,5559,CG7109,NP_476805.1,mts
+72,"Protein kinase, cAMP-dependent, catalytic subunit 1",FBgn0000273,Pka-C1,6353,C,NP_995672.1,Pka-C1
+73,scute,FBgn0004170,sc,AS-C T4,AS-C T4sc,NP_476803.1,sc
+74,scabrous,FBgn0003326,sca,AAA28880,AAF58455,NP_725230.2,sca
+75,trithorax-related,FBgn0023518,trr,anon-2Bb,CG3848,NP_525040.2,trr
+76,tout-velu,FBgn0265974,ttv,CG10117,dExt1,NP_477231.1,ttv
+77,verthandi,FBgn0260987,vtd,80Fh,CG17436,NP_001015132.1,vtd
+78,Wnt oncogene analog 4,FBgn0010453,Wnt4,anon-EST:Liang-2.4,CG4698,NP_476972.2,Wnt4
+79,gilgamesh,FBgn0250823,gish,anon-WO0118547.425,CG6963,NP_001262624.1,gish
+80,headcase,FBgn0010113,hdc,CG15532,Dmel\CG15532,NP_788768.1,hdc
+81,heartless,FBgn0010389,htl,CG7223,CT22273,NP_732287.1,htl
+82,proboscipedia,FBgn0051481,pb,BG:DS01719.1,CG17880,NP_996162.1,pb
+83,unpaired 1,FBgn0004956,upd1,CG5993,Dmel\CG5993,NP_525095.2,upd1
+84,windpipe,FBgn0034718,wdp,CG30504,CG3413,NP_726189.1,wdp
+85,wingless,FBgn0284084,wg,Br,CG4889,NP_523502.1,wg
+86,apontic,FBgn0015903,apt,3041,Apt,NP_001261153.1,apt
+87,Additional sex combs,FBgn0261823,Asx,ASX,CG8787,NP_001014527.1,Asx
+88,fear-of-intimacy,FBgn0024236,foi,cg6817,CG6817,NP_523974.3,foi
+89,G protein-coupled receptor kinase 2,FBgn0261988,Gprk2,154978_at,CG17998,NP_476867.1,Gprk2
+90,hippo,FBgn0261456,hpo,CG11228,Dmel\CG11228,NP_611427.1,hpo
+91,kurtz,FBgn0040206,krz,0952/14,beta-arr2,NP_524988.1,krz
+92,pleiohomeotic,FBgn0002521,pho,CG17743,Dmel\CG17743,NP_726651.1,pho
+93,scribbler,FBgn0285917,sbb,bks,Bks,NP_001261074.1,sbb
+94,something that sticks like glue,FBgn0086129,snama,BcDNA:LD21643,BCDNA:LD21643,NP_611884.1,snama
+95,second mitotic wave missing,FBgn0002044,swm,CG10084,Dmel\CG10084,NP_001260587.1,swm
+96,Tenascin major,FBgn0004449,Ten-m,2017,5301,NP_001262211.1,Ten-m
+97,atonal,FBgn0010433,ato,At,Ato,NP_731223.1,ato
+98,bunched,FBgn0259176,bun,1550,bnc,NP_001036357.2,bun
+99,,FBgn0010269,,,,,Dsor1
+100,,FBgn0005558,,,,,ey
+101,glass,FBgn0004618,gl,CG7672,Dmel\CG7672,NP_476854.1,gl
+102,Ras oncogene at 85D,FBgn0003205,Ras85D,C-ras1,CG9375,NP_476699.1,Ras85D
+103,rough,FBgn0003267,ro,CG6348,Dmel\CG6348,NP_733173.1,ro
+104,smoothened,FBgn0003444,smo,CG11561,Dmel\CG11561,NP_523443.1,smo
+105,terribly reduced optic lobes,FBgn0284408,trol,anon-WO0153538.72,BcDNA:GM02481,NP_001027038.3,trol
+106,apolipophorin,FBgn0087002,apolpp,ApoL1,ApoL2,NP_524634.2,apolpp
+107,brother of ihog,FBgn0040388,boi,Boi,CG13756,NP_001096868.3,boi
+108,dally-like,FBgn0041604,dlp,CG17703,CG32146,NP_996075.2,dlp
+109,,FBgn0031872,,,,,ihog
+110,rasp,FBgn0024194,rasp,7F21,CG11495,NP_523898.1,rasp
+111,shifted,FBgn0003390,shf,CG3134,CG3135,NP_001284963.1,shf
+112,female sterile (1) Yb,FBgn0000928,fs(1)Yb,CG2706,Dmel\CG2706,NP_477494.2,Yb
