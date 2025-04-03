@@ -1,0 +1,312 @@
+---
+title: "absent_GSC_gene_interaction_network_sorting"
+author: "Luke"
+date: "2023-07-05"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(knitr)
+library(dslabs)
+library(dplyr)
+library("writexl")
+```
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+
+
+```{r}
+data1 <- read.csv('/Users/la424/Documents/Ortholog FBGN numbers across species.csv')
+head(data1)
+
+```
+
+```{r}
+data1_sim <- select(data1, simulans) 
+data1_sec <- select(data1, sechelia)
+data1_tei <- select(data1, teissieri)
+data1_yak <- select(data1, yakuba)
+data1_tak <- select(data1, takahashii)
+data1_ele <- select(data1, elegans)
+data1_ser <- select(data1, serrata)
+data1_ana <- select(data1, ananassae)
+data1_pse <- select(data1, pseudoobscura)
+data1_obs <- select(data1, obscura)
+data1_wil <- select(data1, willistoni)
+data1_moj <- select(data1, mojavensis)
+data1_vir <- select(data1, virilis)
+data1_gri <- select(data1, grimshawi)
+data1_rub <- select(data1, rubida)
+data1_dom <- select(data1, domestica)
+data1_cup <- select(data1, cuprina)
+```
+
+
+```{r}
+data1_sim2 <- data1_sim$Here <- "yes"
+data1_sec2 <- data1_sec$Here <- "yes"
+data1_tei2 <- data1_tei$Here <- "yes"
+data1_yak2 <- data1_yak$Here <- "yes"
+data1_tak2 <- data1_tak$Here <- "yes"
+data1_ele2 <- data1_ele$Here <- "yes"
+data1_ser2 <- data1_ser$Here <- "yes"
+data1_ana2 <- data1_ana$Here <- "yes"
+data1_pse2 <- data1_pse$Here <- "yes"
+data1_obs2 <- data1_obs$Here <- "yes"
+data1_wil2 <- data1_wil$Here <- "yes"
+data1_moj2 <- data1_moj$Here <- "yes"
+data1_vir2 <- data1_vir$Here <- "yes"
+data1_gri2 <- data1_gri$Here <- "yes"
+data1_rub2 <- data1_rub$Here <- "yes"
+data1_dom2 <- data1_dom$Here <- "yes"
+data1_cup2 <- data1_cup$Here <- "yes"
+
+```
+
+```{r}
+head(data1_sim)
+```
+
+
+
+
+
+```{r}
+data2 <- read.csv('/Users/la424/Documents/gene_symbol_and_FBgn_absent_interactions.csv')
+head(data2)
+
+```
+```{r}
+data3 <- read.csv('/Users/la424/Documents/gene_symbol_and_FBgn_absent_interactons_simple.csv')
+head(data3)
+```
+
+```{r}
+
+q_2a <- left_join(data2, data1_sim, by = c('FBgn'='simulans')) %>% 
+  write_xlsx('/Users/la424/Documents/sim_absences1.xlsx')
+  
+```
+
+```{r}
+write_xlsx(q_2a, '/Users/la424/Documents/sim_absences.xlsx')
+```
+
+
+
+```{r}
+q_3a <- left_join(data3, data1_sec, by = c('FBgn'='sechelia')) %>% 
+  write_xlsx('/Users/la424/Documents/sec_absences.xlsx')
+```
+
+```{r}
+q_4a <- left_join(data3, data1_tei, by = c('FBgn'='teissieri')) %>% 
+  write_xlsx('/Users/la424/Documents/tei_absences.xlsx')
+```
+
+```{r}
+q_5a <- left_join(data3, data1_yak, by = c('FBgn'='yakuba')) %>% 
+  write_xlsx('/Users/la424/Documents/yak_absences.xlsx')
+```
+
+```{r}
+q_6a <- left_join(data3, data1_tak, by = c('FBgn'='takahashii')) %>% 
+  write_xlsx('/Users/la424/Documents/tak_absences.xlsx')
+q_7a <- left_join(data3, data1_ele, by = c('FBgn'='elegans')) %>% 
+  write_xlsx('/Users/la424/Documents/ele_absences.xlsx')
+```
+
+
+```{r}
+q_8a <- left_join(data3, data1_ser, by = c('FBgn'='serrata')) %>% 
+  write_xlsx('/Users/la424/Documents/ser_absences.xlsx')
+q_9a <- left_join(data3, data1_ana, by = c('FBgn'='ananassae')) %>% 
+  write_xlsx('/Users/la424/Documents/ana_absences.xlsx')
+q_10a <- left_join(data3, data1_pse, by = c('FBgn'='pseudoobscura')) %>% 
+  write_xlsx('/Users/la424/Documents/pse_absences.xlsx')
+q_11a <- left_join(data3, data1_obs, by = c('FBgn'='obscura')) %>% 
+  write_xlsx('/Users/la424/Documents/obs_absences.xlsx')
+q_12a <- left_join(data3, data1_wil, by = c('FBgn'='willistoni')) %>% 
+  write_xlsx('/Users/la424/Documents/wil_absences.xlsx')
+q_13a <- left_join(data3, data1_moj, by = c('FBgn'='mojavensis')) %>% 
+  write_xlsx('/Users/la424/Documents/moj_absences.xlsx')
+q_14a <- left_join(data3, data1_vir, by = c('FBgn'='virilis')) %>% 
+  write_xlsx('/Users/la424/Documents/vir_absences.xlsx')
+q_15a <- left_join(data3, data1_gri, by = c('FBgn'='grimshawi')) %>% 
+  write_xlsx('/Users/la424/Documents/gri_absences.xlsx')
+q_16a <- left_join(data3, data1_rub, by = c('FBgn'='rubida')) %>% 
+  write_xlsx('/Users/la424/Documents/rub_absences.xlsx')
+q_17a <- left_join(data3, data1_dom, by = c('FBgn'='domestica')) %>% 
+  write_xlsx('/Users/la424/Documents/dom_absences.xlsx')
+q_18a <- left_join(data3, data1_cup, by = c('FBgn'='cuprina')) %>% 
+  write_xlsx('/Users/la424/Documents/cup_absences.xlsx')
+
+```
+
+
+
+
+
+
+
+
+```{r}
+data4 <- read.csv('/Users/la424/Documents/genes_that_disappeared.csv')
+head(data4)
+```
+
+```{r}
+q_2a <- left_join(data4, data1_sim, by = c('FBgn'='simulans')) %>% 
+  write_xlsx('/Users/la424/Documents/sim_absences2.xlsx')
+q_3a <- left_join(data4, data1_sec, by = c('FBgn'='sechelia')) %>% 
+  write_xlsx('/Users/la424/Documents/sec_absences2.xlsx')
+q_4a <- left_join(data4, data1_tei, by = c('FBgn'='teissieri')) %>% 
+  write_xlsx('/Users/la424/Documents/tei_absences2.xlsx')
+q_5a <- left_join(data4, data1_yak, by = c('FBgn'='yakuba')) %>% 
+  write_xlsx('/Users/la424/Documents/yak_absences2.xlsx')
+q_6a <- left_join(data4, data1_tak, by = c('FBgn'='takahashii')) %>% 
+  write_xlsx('/Users/la424/Documents/tak_absences2.xlsx')
+q_7a <- left_join(data4, data1_ele, by = c('FBgn'='elegans')) %>% 
+  write_xlsx('/Users/la424/Documents/ele_absences2.xlsx')
+q_8a <- left_join(data4, data1_ser, by = c('FBgn'='serrata')) %>% 
+  write_xlsx('/Users/la424/Documents/ser_absences2.xlsx')
+q_9a <- left_join(data4, data1_ana, by = c('FBgn'='ananassae')) %>% 
+  write_xlsx('/Users/la424/Documents/ana_absences2.xlsx')
+q_10a <- left_join(data4, data1_pse, by = c('FBgn'='pseudoobscura')) %>% 
+  write_xlsx('/Users/la424/Documents/pse_absences2.xlsx')
+q_11a <- left_join(data4, data1_obs, by = c('FBgn'='obscura')) %>% 
+  write_xlsx('/Users/la424/Documents/obs_absences2.xlsx')
+q_12a <- left_join(data4, data1_wil, by = c('FBgn'='willistoni')) %>% 
+  write_xlsx('/Users/la424/Documents/wil_absences2.xlsx')
+q_13a <- left_join(data4, data1_moj, by = c('FBgn'='mojavensis')) %>% 
+  write_xlsx('/Users/la424/Documents/moj_absences2.xlsx')
+q_14a <- left_join(data4, data1_vir, by = c('FBgn'='virilis')) %>% 
+  write_xlsx('/Users/la424/Documents/vir_absences2.xlsx')
+q_15a <- left_join(data4, data1_gri, by = c('FBgn'='grimshawi')) %>% 
+  write_xlsx('/Users/la424/Documents/gri_absences2.xlsx')
+q_16a <- left_join(data4, data1_rub, by = c('FBgn'='rubida')) %>% 
+  write_xlsx('/Users/la424/Documents/rub_absences2.xlsx')
+q_17a <- left_join(data4, data1_dom, by = c('FBgn'='domestica')) %>% 
+  write_xlsx('/Users/la424/Documents/dom_absences2.xlsx')
+q_18a <- left_join(data4, data1_cup, by = c('FBgn'='cuprina')) %>% 
+  write_xlsx('/Users/la424/Documents/cup_absences2.xlsx')
+```
+
+
+```{r}
+data5 <- read.csv('/Users/la424/Documents/genes_that_disappeared_2.csv')
+head(data4)
+```
+
+```{r}
+q_2a <- left_join(data5, data1_sim, by = c('FBgn'='simulans')) %>% 
+  write_xlsx('/Users/la424/Documents/sim_absences3.xlsx')
+q_3a <- left_join(data5, data1_sec, by = c('FBgn'='sechelia')) %>% 
+  write_xlsx('/Users/la424/Documents/sec_absences3.xlsx')
+q_4a <- left_join(data5, data1_tei, by = c('FBgn'='teissieri')) %>% 
+  write_xlsx('/Users/la424/Documents/tei_absences3.xlsx')
+q_5a <- left_join(data5, data1_yak, by = c('FBgn'='yakuba')) %>% 
+  write_xlsx('/Users/la424/Documents/yak_absences3.xlsx')
+q_6a <- left_join(data5, data1_tak, by = c('FBgn'='takahashii')) %>% 
+  write_xlsx('/Users/la424/Documents/tak_absences3.xlsx')
+q_7a <- left_join(data5, data1_ele, by = c('FBgn'='elegans')) %>% 
+  write_xlsx('/Users/la424/Documents/ele_absences3.xlsx')
+q_8a <- left_join(data5, data1_ser, by = c('FBgn'='serrata')) %>% 
+  write_xlsx('/Users/la424/Documents/ser_absences3.xlsx')
+q_9a <- left_join(data5, data1_ana, by = c('FBgn'='ananassae')) %>% 
+  write_xlsx('/Users/la424/Documents/ana_absences3.xlsx')
+q_10a <- left_join(data5, data1_pse, by = c('FBgn'='pseudoobscura')) %>% 
+  write_xlsx('/Users/la424/Documents/pse_absences3.xlsx')
+q_11a <- left_join(data5, data1_obs, by = c('FBgn'='obscura')) %>% 
+  write_xlsx('/Users/la424/Documents/obs_absences3.xlsx')
+q_12a <- left_join(data5, data1_wil, by = c('FBgn'='willistoni')) %>% 
+  write_xlsx('/Users/la424/Documents/wil_absences3.xlsx')
+q_13a <- left_join(data5, data1_moj, by = c('FBgn'='mojavensis')) %>% 
+  write_xlsx('/Users/la424/Documents/moj_absences3.xlsx')
+q_14a <- left_join(data5, data1_vir, by = c('FBgn'='virilis')) %>% 
+  write_xlsx('/Users/la424/Documents/vir_absences3.xlsx')
+q_15a <- left_join(data5, data1_gri, by = c('FBgn'='grimshawi')) %>% 
+  write_xlsx('/Users/la424/Documents/gri_absences3.xlsx')
+q_16a <- left_join(data5, data1_rub, by = c('FBgn'='rubida')) %>% 
+  write_xlsx('/Users/la424/Documents/rub_absences3.xlsx')
+q_17a <- left_join(data5, data1_dom, by = c('FBgn'='domestica')) %>% 
+  write_xlsx('/Users/la424/Documents/dom_absences3.xlsx')
+q_18a <- left_join(data5, data1_cup, by = c('FBgn'='cuprina')) %>% 
+  write_xlsx('/Users/la424/Documents/cup_absences3.xlsx')
+```
+
+```{r}
+q_14a <- left_join(data5, data1_vir, by = c('FBgn'='virilis')) %>% 
+  write_xlsx('/Users/la424/Documents/vir_absences3.xlsx')
+```
+
+```{r}
+data6 <- read.csv('/Users/la424/Documents/Bam_interacting_genes_remaining.csv')
+head(data6)
+```
+
+```{r}
+q__2a <- left_join(data6, data1_sim, by = c('FBgn'='simulans')) %>% 
+  write_xlsx('/Users/la424/Documents/sim_absences_bam.xlsx')
+q__3a <- left_join(data6, data1_sec, by = c('FBgn'='sechelia')) %>% 
+  write_xlsx('/Users/la424/Documents/sec_absences_bam.xlsx')
+q__4a <- left_join(data6, data1_tei, by = c('FBgn'='teissieri')) %>% 
+  write_xlsx('/Users/la424/Documents/tei_absences_bam.xlsx')
+q__5a <- left_join(data6, data1_yak, by = c('FBgn'='yakuba')) %>% 
+  write_xlsx('/Users/la424/Documents/yak_absences_bam.xlsx')
+q__6a <- left_join(data6, data1_tak, by = c('FBgn'='takahashii')) %>% 
+  write_xlsx('/Users/la424/Documents/tak_absences_bam.xlsx')
+q__7a <- left_join(data6, data1_ele, by = c('FBgn'='elegans')) %>% 
+  write_xlsx('/Users/la424/Documents/ele_absences_bam.xlsx')
+q__8a <- left_join(data6, data1_ser, by = c('FBgn'='serrata')) %>% 
+  write_xlsx('/Users/la424/Documents/ser_absences_bam.xlsx')
+q__9a <- left_join(data6, data1_ana, by = c('FBgn'='ananassae')) %>% 
+  write_xlsx('/Users/la424/Documents/ana_absences_bam.xlsx')
+q__10a <- left_join(data6, data1_pse, by = c('FBgn'='pseudoobscura')) %>% 
+  write_xlsx('/Users/la424/Documents/pse_absences_bam.xlsx')
+q__11a <- left_join(data6, data1_obs, by = c('FBgn'='obscura')) %>% 
+  write_xlsx('/Users/la424/Documents/obs_absences_bam.xlsx')
+q__12a <- left_join(data6, data1_wil, by = c('FBgn'='willistoni')) %>% 
+  write_xlsx('/Users/la424/Documents/wil_absences_bam.xlsx')
+q__13a <- left_join(data6, data1_moj, by = c('FBgn'='mojavensis')) %>% 
+  write_xlsx('/Users/la424/Documents/moj_absences_bam.xlsx')
+q__14a <- left_join(data6, data1_vir, by = c('FBgn'='virilis')) %>% 
+  write_xlsx('/Users/la424/Documents/vir_absences_bam.xlsx')
+q__15a <- left_join(data6, data1_gri, by = c('FBgn'='grimshawi')) %>% 
+  write_xlsx('/Users/la424/Documents/gri_absences_bam.xlsx')
+q__16a <- left_join(data6, data1_rub, by = c('FBgn'='rubida')) %>% 
+  write_xlsx('/Users/la424/Documents/rub_absences_bam.xlsx')
+q__17a <- left_join(data6, data1_dom, by = c('FBgn'='domestica')) %>% 
+  write_xlsx('/Users/la424/Documents/dom_absences_bam.xlsx')
+q__18a <- left_join(data6, data1_cup, by = c('FBgn'='cuprina')) %>% 
+  write_xlsx('/Users/la424/Documents/cup_absences_bam.xlsx')
+```
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
