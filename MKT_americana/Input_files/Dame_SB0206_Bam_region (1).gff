@@ -1,0 +1,14 @@
+##gff-version 3
+##source-version geneious 2022.1.1
+##sequence-region	bam	1	1581
+bam	Geneious	extracted region	1	1581	.	+	.	Name=Extracted region from tig00001090
+bam	Liftoff	five_prime_UTR	1	349	.	+	.	ID=MSTRG.3165.1.p1.utr5p1
+bam	Liftoff	three_prime_UTR	1575	1581	.	+	.	ID=MSTRG.3165.1.p1.utr3p1
+bam	Liftoff	CDS	350	559	.	+	.	ID=cds.MSTRG.3165.1.p1
+bam	Liftoff	CDS	636	1006	.	+	.	ID=cds.MSTRG.3165.1.p1
+bam	Liftoff	CDS	1063	1574	.	+	.	ID=cds.MSTRG.3165.1.p1
+bam	Liftoff	exon	1	559	.	+	.	ID=MSTRG.3165.1.p1.exon1
+bam	Liftoff	exon	1063	1581	.	+	.	ID=MSTRG.3165.1.p1.exon3
+bam	Liftoff	exon	636	1006	.	+	.	ID=MSTRG.3165.1.p1.exon2
+bam	Liftoff	gene	1	1581	.	+	.	
+bam	Liftoff	mRNA	1	1581	.	+	.	
